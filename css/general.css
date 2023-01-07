@@ -1,0 +1,74 @@
+/***
+
+padding: 4.8rem 9.6rem;
+box-shadow: 0 0rem 2.8rem rgba(0, 0, 0, 0.095);
+
+colors
+#eef1f6
+#ff3e66
+#f0f1f7
+#0e1133
+#0e1133
+#2c6ff4
+#182D60
+#ECF1F2
+#BF5857
+#3D9DE1
+#8C9EBE
+#DDAF55
+#D29A9B
+#ECC5A4
+#BCC6D1
+
+***/
+
+
+:root{
+  --r:#ff3e66;
+  --d:#0e1133;
+  --s:#2c6ff4;
+  --l:#eef1f6;
+  --sh:#555;
+  --h2:4.2rem;
+  --hin:2.2rem;
+  --hw:700;
+  --p:1.6rem;
+  --plh:1.8;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  color: var(--r);
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--sh);
+  overflow-x: hidden;
+}
+
+.main{
+  max-width: 136rem;
+  margin: 0 auto;
+}
+.grid3colms {
+  display: grid;
+  column-gap: 6.4rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.h2h{
+  font-size: var(--h2);
+  font-weight: 900;
+  color: var(--d);
+  padding-bottom: 1.4rem;
+}
