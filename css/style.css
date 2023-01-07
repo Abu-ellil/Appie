@@ -363,7 +363,7 @@
   font-size: var(--p);
   font-weight: 500;
   line-height: var(--plh) !important;
-  padding: 2rem 3rem;
+  padding: 2rem 0 3rem;
   line-height: 1.5rem;
 }
 .how-discription .pp{
@@ -619,6 +619,9 @@ gap: 3.2rem;
   padding-top: 4.8rem;
   color: var(--d);
 }
+.download-section .section-download .how-discription .pp{
+  padding: 2rem 0 2rem;
+}
 .app-store {
   display: flex;
   flex-direction: row;
@@ -677,7 +680,7 @@ gap: 3.2rem;
   font-size:2.8rem;
 }
 /**************************/
-     /* LIGHT END */
+     /* DOWNLOAD END */
 /**************************/
 /**************************/
      /* PRICING START */
@@ -790,6 +793,9 @@ gap: 3.2rem;
   top: 2px;
   left: -2.2rem;
 }
+.plan-text{
+  padding-bottom: 1rem;
+}
 .plan-price span{
   font-size: 1.4rem;
   font-weight: 400;
@@ -806,6 +812,7 @@ gap: 3.2rem;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  padding-top: 4rem;
 }
 .list-icon {
   border-radius: 50%;
@@ -945,7 +952,186 @@ gap: 3.2rem;
 /**************************/
      /* TESTIMONIAL END */
 /**************************/
+/**************************/
+     /* SPONSORES START */
+/**************************/
+.section-spncers{
+  padding-bottom: 12rem;
+  padding-top: 6rem;
+}
+.sponcers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.spon-title{
+  width: 50%;
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 700;
+  padding: 6.8rem 0 2rem;
+  color: var(--d);
+}
+.spon-descripton{
+  font-size: var(--p);
+}
+.spon-img {
+  box-shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, 0.15);
+  border-radius: 9px;
+  padding: 3.2rem;
+  height: 10rem;
+  width: 10rem;
+}
+.spon-icons{
+  display: grid;
+  max-width: 75%;
+  margin: 5.4rem auto 0px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(11rem,1fr));
+  gap: 4.2rem;
+}
+.spon-img:nth-child(7){
+  left: 13rem;
+}
+.spon-img:nth-child(8){
+  left: 16rem;
+}
+.spon-img:nth-child(9){
+  left: 19rem;
+}
+.spon-img:nth-child(10){
+  left: 21rem;
+}
+.spon-img:nth-child(7),.spon-img:nth-child(8),.spon-img:nth-child(9),.spon-img:nth-child(10){
+ position: relative;
+
+}
+/**************************/
+     /* SPONSORES END */
+/**************************/
+/**************************/
+     /* FOOTER Stert */
+/**************************/
+
+footer{
+  background-color: var(--l);
+  
+}
+.footer-container{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 4rem;
+  padding: 9.8rem 0;
+}
+.footer-logo{
+  width: 30rem;
+  height: 2.8rem;
+}
+.footer-desc{
+  font-size: var(--p);
+  font-weight: var(--plh);
+}
+.footer-link{
+  margin-top: 1.6rem;
+  font-size: var(--p);
+  font-weight: 500;
+  color: var(--d);
+  display: block;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all .3s;
+  margin-bottom: 2.8rem;
+}
+.footer-link:active,
+.footer-link:hover{
+  color: var(--r);
+}
+.social-list{
+  display: flex;
+  font-size: 1.8rem;
+  list-style: none;
+  gap: 1.8rem;
+  color: var(--d);
+}
+.social-list li{
+  background-color: #fff;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: .4s;
+}
+.footer-icon:hover{
+  color: var(--r);
+}
+.footer-icon{
+  color: var(--d);
+}
+
+
+.footer-name{
+  font-size: 2rem;
+  color: var(--d);
+}
+.foot-list{
+  list-style: none;
+  font-size: 1.8rem;
+  line-height: 2.4;
+  padding-top: 2rem;
+}
+.foot-list li a{
+  color:#555;
+  text-decoration: none;
+}
+.foot-list li a:hover {
+  opacity: .5;
+}
+
+.footer-ico{
+  padding-right: 2rem;
+  color: #5e8ff1;
+}
+
+.footer-footer{
+  padding-bottom: 5rem;
+  border-top: 1px #999 solid;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer-footer-btn{
+  padding-top: 4.2rem;
+  display: flex;
+  gap: 1rem;
+
+}
+.apple, .android{
+  color: black;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 3.8rem;
+  width: 18rem;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, 0.15);
+}
+.apple{
+  background-color: rgb(255, 255, 255);
+}
+.android{
+  border: 1px #999 solid;
+  background-color: var(--l);
+}
 
 
 
 
+.copyright {
+  align-self: end;
+  font-size: 1.6rem;
+  color: #999;
+}

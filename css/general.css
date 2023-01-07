@@ -33,7 +33,7 @@ colors
   --hin:2.2rem;
   --hw:700;
   --p:1.6rem;
-  --plh:1.8;
+  --plh:1.4;
 }
 
 
@@ -45,14 +45,13 @@ colors
 html{
   font-size: 62.5%;
   overflow-x: hidden;
-  color: var(--r);
+  scroll-behavior: smooth;
 }
 body{
   font-family: 'Roboto', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: var(--sh);
-  overflow-x: hidden;
 }
 
 .container{
