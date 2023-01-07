@@ -579,10 +579,15 @@ gap: 3.2rem;
   font-weight: 100;
   border-radius: 50px;
 }
-.ll{
-  color: #07ff45;
+.lll:hover, .rrr:hover{
+  background-color: var(--d);
+  color: #ffffff;
 }
+.cta:hover{
+  color: #fff;
+  background-color: var(--d);
 
+}
 /**************************/
      /* DATA END */
 /**************************/
