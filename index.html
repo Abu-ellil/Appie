@@ -6,35 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="links-hover.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/general.css">
   <title>appie.</title>
 </head>
 <body>
 
- 
+ <div class="hero-header-container">
 <!-- header staRT -->
-  <div class="header-container">
   <header class="header">
     <a href="#"><img class="logo" src="img/logo.png" alt="appei website logo"/></a>
-
+<div class="navigation">
     <nav class="main-nav">
-      <ul class="main-nav-list">
-        <li><a href="#" class="main-nav-link">Home<ion-icon name="chevron-down-outline"></ion-icon></a></li>
-        <li><a href="#" class="main-nav-link">Service</a></li>
-        <li><a href="#" class="main-nav-link">Pages<ion-icon name="chevron-down-outline"></ion-icon></a></li>
-        <li><a href="#" class="main-nav-link">News<ion-icon name="chevron-down-outline"></ion-icon></a></li>
-        <li><a href="#" class="main-nav-link">Contact</a></li>
-        <li><a href="#" class="main-nav-link nav-btn">Get Started </a></li>
+      <ul class="nav-list">
+        <li><a href="#" class="nav-link">Home<ion-icon name="chevron-down-outline"></ion-icon></a></li>
+        <li><a href="#" class="nav-link">Service</a></li>
+        <li><a href="#" class="nav-link">Pages<ion-icon name="chevron-down-outline"></ion-icon></a></li>
+        <li><a href="#" class="nav-link">News<ion-icon name="chevron-down-outline"></ion-icon></a></li>
+        <li><a href="#" class="nav-link">Contact</a></li>
       </ul>
     </nav>
+    <a href="#" class="nav-link nav-btn">Get Started </a>
+   </div>
   </header>
 <!-- header END -->
 
 
 <!-- SECTION HERO START -->
-  <section class="section-hero">
+  <section class="section-hero container">
     <div class="hero">
 
       <div class="hero-text-box">
@@ -46,10 +46,19 @@
           <p>Find the best application in the appie.</p>
           <div class="btn-ico">
           <a href="#contacts" class="cta-btn">
-            <div class="btn-icco"><ion-icon name="mail-outline"></ion-icon> info@appie.com
-            </div>
+         
+            <div class="btn-icco"><ion-icon name="mail-outline"></ion-icon>
+              <input
+              class="mail"
+               id="email"
+               type="email"
+               placeholder="info@appie.com"
+               required
+             /> </div>
             <div class="arrow"><ion-icon name="arrow-forward"></ion-icon></div>
           </a>
+
+         
         </div>
         </div>
 
@@ -71,13 +80,11 @@
       </div>
     </div>
   </section>
-  
-
 <!-- SECTION HERO END -->
 </div>
 
 <!-- section how start -->
-<section class="section-how main">
+<section class="section-how container">
   <div class="how-heading ">
     <div class="hp">
       <h2 class="h2h">How does it work</h2>
@@ -160,7 +167,7 @@
 <!-- section how end -->
 <!-- section DARK START -->
 
-<section>
+<section >
   <div class="section-dark ">
     <div class="hed-dark">
       <h2 class="h2h">Wherever you need us the most</h2>
@@ -191,7 +198,7 @@
 </section>
 <!-- section DARK end -->
 <!-- section DATA START -->
-<section class="data-section main">
+<section class="data-section container">
   <div class="data">
     <div class="data-title">
     <div class="hp">
@@ -249,8 +256,8 @@
 </section>
 <!-- section DATA END -->
 <!-- section LIGHT START -->
-<section class="light">
-  <div class="section-light main">
+<section class="download-section" id="download">
+  <div class="section-download container">
     <div class="how-discription">
       <span>Download Our App</span>
       <h3>App is available for free on app store</h3>
@@ -282,8 +289,8 @@
 <!-- section LIGHT END -->
 <!-- SECTION PRICING START -->
 
-<section class="pricing">
-  <div class="section-pricing main">
+<section class="pricing ">
+  <div class="section-pricing container">
     <div class="pricing-title">
       <h2 class="h2h">
         Simple pricing for Everyone
@@ -386,7 +393,7 @@
 </section>
 <!-- SECTION PRICING END -->
 <!-- SECTION TESTIMONIAL START -->
-<section class="testimonial-section main">
+<section class="testimonial-section container">
   <div class="grid-3-cols">
     <div class="rate-img">
       <img class="rt-img" src="img/people/xZ4wg2Xj.jpg" alt="happy prerson providing his 5 star testimonial">

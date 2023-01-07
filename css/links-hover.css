@@ -1,0 +1,12 @@
+
+
+
+
+
+/**** section how hover ****/
+.card{
+  background-color: aqua;
+}
+.card:hover{
+  background-color: rgba(0, 0, 0, 0.03);
+}
