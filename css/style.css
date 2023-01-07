@@ -579,6 +579,9 @@ gap: 3.2rem;
   font-weight: 100;
   border-radius: 50px;
 }
+.ll{
+  color: #07ff45;
+}
 
 /**************************/
      /* DATA END */
@@ -669,13 +672,59 @@ gap: 3.2rem;
 /**************************/
      /* PRICING START */
 /**************************/
+.section-pricing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing{
+  padding-bottom: 9.6rem;
+}
+.swich{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border: #555 1px solid;
+  border-radius: 37px;
+  padding: 0.7rem 3rem;
+}
+.cont{
+  padding-bottom: 4.6rem;
+}
+.monthly{
+  color: #fff;
+  position: relative;
+  background-color: var(--r);
+  padding: 0.9rem 1rem;
+  border-radius: 50px;
+  display: inline-block;
+  right: 2.2rem;
+}
+.yearly{
+  left: 1rem;
+  position: relative;
+}
 .pricing-plan {
   border:1px solid var(--l);
     border-radius: 9px;
-    padding: 6rem;
+    padding: 4.8rem;
+    transition: all .8s;
+}
+.pri:hover{
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 .pricing-plan--full{
   border-top: var(--r) 4px solid;
+  position: relative;
+  box-shadow: 0 0rem 2.8rem rgba(0, 0, 0, 0.095);
+}
+.pricing-plan--full a:hover{
+  border-top: var(--d) 4px solid;
   position: relative;
   box-shadow: 0 0rem 2.8rem rgba(0, 0, 0, 0.095);
 }
@@ -691,6 +740,17 @@ gap: 3.2rem;
   background-color: #3b8aff;
   padding: 0.8rem 2rem;
   border-radius: 20px 0 0 20px;
+}
+.pricing-plan--juicy .list-icon {
+  border-radius: 50%;
+  background-color: var(--l);
+  width: 3rem;
+  height: 3rem;
+  color: #11e61c8d;
+}
+.plan-sing-up a:hover{
+  color: #fff;
+  background-color: var(--r);
 }
 .plan-header {
   margin-bottom: 1.8rem;
@@ -804,6 +864,76 @@ gap: 3.2rem;
 }
 /**************************/
      /* PRICING END */
+/**************************/
+/**************************/
+     /* TESTIMONIAL START */
+/**************************/
+.testimonial-section{
+  height: 40rem;
+  padding-top: 8rem;
+}
+.testimonial-section {
+  background-image: url("../img/testimonial-bg-2.91b99839.jpg");
+  color:#fff;
+  padding-top: 24px;
+}
+.grid-3-cols{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 8rem 21rem 0 5rem;
+}
+.rate-img{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+.rt-img{
+  height: 12rem;
+  border-radius: 50%;
+}
+.testimonial-box {
+  grid-column: 2 / -1;
+  align-self: center;
+  position: relative;
+  
+}
+
+.testimonial-box h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.testimonial-text {
+  margin-bottom: 24px;
+  font-size: 21px;
+  line-height: 1.7;
+  color: #e6fcf5;
+}
+.testimonial-author{
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.testimonial-jop{
+  font-size: 1.8rem;
+}
+.arrowss{
+  font-size: 6rem; 
+  font-weight: 400;
+  position: absolute;
+  right: 0;
+  bottom: -12px;
+}
+.arrow-r:hover{
+  color: var(--r);
+}
+.arrow-l:hover{
+  color: var(--r);
+}
+
+/**************************/
+     /* TESTIMONIAL END */
 /**************************/
 
 
