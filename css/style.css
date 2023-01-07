@@ -2,6 +2,9 @@
 /**************************/
      /* HEADER START */
 /**************************/
+.mobile-nav-bar {
+  display: none;
+}
 .hero-header-container{
   background-color: var(--l);
   /* height: 100vh; */
