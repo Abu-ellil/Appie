@@ -595,14 +595,15 @@ gap: 3.2rem;
   /* width: 30%; */
   display: grid;
   grid-template-columns: 1.2fr 2fr;
-  padding-top: 8.6rem;
+  padding-top: 4.8rem;
 }
 .section-light .how-discription{
   padding: 0rem 0rem;
 }
 .section-light h3{
   font-size: 5.4rem;
-  font-weight:700;
+  font-weight: 700;
+  padding-top: 4.8rem;
   color: var(--d);
 }
 .app-store {
@@ -617,6 +618,11 @@ gap: 3.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.app-store a{
+  list-style: none;
+  text-decoration: none;
 }
 .disc{
   display: flex;
@@ -671,6 +677,7 @@ gap: 3.2rem;
 .pricing-plan--full{
   border-top: var(--r) 4px solid;
   position: relative;
+  box-shadow: 0 0rem 2.8rem rgba(0, 0, 0, 0.095);
 }
 .pricing-plan--full::before{
   content: "Most Populer";
@@ -772,9 +779,10 @@ gap: 3.2rem;
   margin-bottom: 1.6rem;
 }
 
-.feature-text {
+.pricing-p {
   font-size: 1.8rem;
   line-height: 1.8;
+  padding-bottom: 4.8rem;
 }
 .plan-sing-up .btn{
   color: var(--d);
