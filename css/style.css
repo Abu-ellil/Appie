@@ -507,6 +507,9 @@ background-color: var(--d);
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
 }
+.data-icons img{
+  width: 50%;
+}
 .data-icons .part{
   display: flex;
   flex-direction: column;
@@ -986,11 +989,11 @@ gap: 3.2rem;
   font-size: var(--p);
 }
 .spon-img {
-  box-shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.2rem 3.6rem rgb(0 0 0 / 15%);
   border-radius: 9px;
   padding: 3.2rem;
-  height: 10rem;
-  width: 10rem;
+  height: 100%;
+  width: 100%;
 }
 .spon-icons{
   display: grid;
@@ -1034,6 +1037,7 @@ footer{
   padding: 9.8rem 0;
 }
 .footer-logo img{
+  width: 50%;
  padding-bottom: 2rem;
 }
 .footer-desc{
@@ -1115,7 +1119,7 @@ footer{
 
 }
 .apple, .android{
-  color: black;
+  color: var(--d);
   font-size: 1.4rem;
   display: flex;
   align-items: center;
