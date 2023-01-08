@@ -106,6 +106,7 @@
 }
 .hero-img {
   width: 100%;
+  height: 100%;
 } 
 
 .customers {
@@ -292,7 +293,7 @@
 .icon-inner{
   font-size: 3rem;
 }
-.card h3{
+.card h4{
   font-size: var(--hin);
   font-weight: var(--hw);
   color: var(--d);
@@ -441,7 +442,7 @@ background-color: var(--d);
   opacity: 100%;
   border: rgba(177, 175, 175, 0.716) 1px solid;
 }
-.crd h3{
+.crd h4{
   font-size: 2.2rem;
   font-weight: var(--hw);
   color: var(--l);
@@ -723,6 +724,12 @@ gap: 3.2rem;
 .yearly{
   left: 1rem;
   position: relative;
+}
+.yearly:hover {
+  color: #fff;
+  background-color: rgba(85, 85, 85, 0.328);
+  padding: 0.8rem 2.2rem;
+  border-radius: 50px;
 }
 .pricing-plan {
   border:1px solid var(--l);
@@ -1026,9 +1033,8 @@ footer{
   gap: 4rem;
   padding: 9.8rem 0;
 }
-.footer-logo{
-  width: 30rem;
-  height: 2.8rem;
+.footer-logo img{
+ padding-bottom: 2rem;
 }
 .footer-desc{
   font-size: var(--p);
@@ -1129,12 +1135,46 @@ footer{
   border: 1px #999 solid;
   background-color: var(--l);
 }
-
-
-
+.footer-footer-btn .apple:hover{
+  box-shadow: 0 0rem 1.6rem rgba(44, 53, 70, 0.183);
+}
+.footer-footer-btn .android:hover{
+  box-shadow: 0 0rem 1.6rem rgba(44, 53, 70, 0.183);
+}
 
 .copyright {
   align-self: end;
   font-size: 1.6rem;
   color: #999;
+}
+
+
+/******************/
+/******************/
+/* BACK TO TOP  */
+/******************/
+/******************/
+
+
+.top {
+  --offset: 50px; 
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: var(--r);
+  border-radius: 100px;
+  white-space: nowrap;
+  opacity: 0.5;
+}
+.top:hover{
+  opacity: 1;
 }
