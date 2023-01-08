@@ -36,7 +36,9 @@ h3{
 .spon-img:nth-child(7), .spon-img:nth-child(8), .spon-img:nth-child(9), .spon-img:nth-child(10) {
   position: inherit;
 }
-
+.list-item {
+  font-size: 2rem;
+}
 
 }
 
@@ -45,7 +47,7 @@ h3{
 /* FOR SCREENS OVER 1168PX */
 /* FOR SCREENS OVER 1168PX */
 
-@media (max-width: 73em){
+@media (max-width: 75em){
   h3{
     font-size: 4rem !important;
   }
@@ -72,6 +74,7 @@ h3{
   color: #e6fcf5;
 }
 .data-icons {
+  gap: 2rem;
   padding: 2px 0.6rem 5.6rem 2rem;
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
 
@@ -81,6 +84,11 @@ h3{
   flex-direction: column;
   align-items: center;
 }
+.pricing-plan {
+  padding: 2.8rem;
+}
+
+
 }
 
 /* FOR SCREENS OVER 1024PX */
@@ -186,9 +194,10 @@ h3{
   gap: 6.4rem;
   grid-template-columns: 1fr;
 }
+
 .pricing-plan {
-  width: 46rem;
-  font-size: 1.8rem;
+    width: 131%;
+    font-size: 1.8rem;
 }
 
 
@@ -363,8 +372,8 @@ h4{
   gap: 3rem;
 }
 .data-icons .part {
-  width: 46rem;
-  height: 24rem;
+  width: 100%;
+  height: 28rem;
 }
 .vid img{
   width: 100%;
@@ -417,6 +426,26 @@ element.style {
   left: 20rem;
   position: relative;
 }
+.data-icons {
+  padding: 0;
+  width: 66%;
+  display: contents;
+}
+.testimonial-section {
+  height: 60rem;
+}
+.spon-title {
+  font-size: 2.6rem;
+}
+.h2h {
+  padding-top: 0.8rem;
+  font-size: 3.2rem;}
 
-
+  .pricing-plan {
+    width: 110%;
+    font-size: 1.8rem;
+}
+.spon-img:nth-child(10) {
+  left: 0;
+}
 }
