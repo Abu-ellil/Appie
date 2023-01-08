@@ -333,11 +333,12 @@
     padding: 2.2rem 2.2rem;
   }
   h3 {
-    font-size: 3.6rem !important;
+    font-size: 2.6rem !important;
   }
   h4 {
     font-size: 1.4rem !important;
   }
+
   .data {
     display: flex;
     flex-direction: column;
@@ -372,9 +373,9 @@
     padding-top: 0;
   }
   .section-download h3 {
-    padding-top: 2.8rem;
-    width: 52%;
-  }
+    padding-top: 2.4rem;
+    width: 66%;
+}
   .grid-3-cols {
     display: flex;
     flex-direction: column;
@@ -442,4 +443,9 @@
     gap: 5rem;
     text-align: center;
 }
+.slide-text {
+  padding-left: 0;
+}
+
+
 }
