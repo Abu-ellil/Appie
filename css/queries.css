@@ -448,4 +448,7 @@ element.style {
 .spon-img:nth-child(10) {
   left: 0;
 }
+.data-icons img {
+  width: 20%;
+}
 }
