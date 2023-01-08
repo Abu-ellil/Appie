@@ -543,11 +543,15 @@ display: flex;
 flex-direction: column;
 gap: 3.2rem;
 }
-
+.vid img{
+  width: 100%;
+}
 .slid-arrows{
   width: 70%;
 }
-
+.pic img{
+  width: 100%;
+}
 .slide-text{
   padding-left: 6.8rem;
 }
