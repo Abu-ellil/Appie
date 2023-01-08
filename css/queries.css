@@ -325,14 +325,9 @@ display: flex;
   left: 62%;
 }
 
-
-
-
-
-
-
-
-
+.how-discription .pp {
+  font-size: 1.2rem;
+}
 
 .how-heading {
   display: flex;
@@ -352,7 +347,7 @@ h3{
   font-size: 3.6rem !important;
 }
 h4{
-  font-size: 2rem !important;
+  font-size: 1.4rem !important;
 }
 .data {
   display: flex;
