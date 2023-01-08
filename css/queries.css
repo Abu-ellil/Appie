@@ -188,6 +188,15 @@
     width: 131%;
     font-size: 1.8rem;
   }
+  .footer-footer-btn {
+    padding-top: 4.2rem;
+    display: flex;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
 }
 
 /* FOR SCREENS OVER 700PX */
