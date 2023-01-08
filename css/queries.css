@@ -416,13 +416,18 @@
     height: 60rem;
   }
   .spon-title {
-    font-size: 2.6rem;
-  }
+    font-size: 2.2rem;
+}
+.spon-title {
+  width: 69%;}
   .h2h {
     padding-top: 0.8rem;
     font-size: 3.2rem;
   }
-
+  .hed-dark h2 {
+    width: 92%;
+    font-size: 2.8rem;
+}
   .pricing-plan {
     width: 110%;
     font-size: 1.8rem;
