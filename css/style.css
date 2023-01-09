@@ -2,9 +2,53 @@
 /**************************/
      /* HEADER START */
 /**************************/
+/****** mobile nav****/
 .mobile-nav-bar {
   display: none;
 }
+
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+
+
+/****** mobile nav end ****/
+.mobile-nav-list{
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.484);
+  padding: 4rem 5rem;
+  position: absolute;
+  right: 4rem;
+  top: 12rem;
+  font-size: 3.2rem;
+}
+.mob-nav ul{
+  display: none;
+}
+
+.mobile-nav-list:hover ul{
+  display: block;
+}
+
+/****** mobile nav end ****/
+
+
 .hero-header-container{
   background-color: var(--l);
   /* height: 100vh; */
@@ -299,8 +343,8 @@
   background-color: #147a2e;
 }
 
-.icon-inner{
-  font-size: 3rem;
+.icon-inner {
+  font-size: 2.8rem;
 }
 .card h4{
   font-size: var(--hin);

@@ -96,6 +96,16 @@
     display: none;
   }
 
+
+
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+
+  
+
   .mobile-nav-bar {
     display: block;
     font-size: 3.2rem;
@@ -139,6 +149,8 @@
   html {
     font-size: 55%;
   }
+
+
   .hero-img-box {
     right: 0;
     padding-top: 40px;
@@ -286,6 +298,7 @@
 /* FOR SCREENS OVER 600PX */
 /* FOR SCREENS OVER 600PX */
 /* FOR SCREENS OVER 600PX */
+
 
 @media (max-width: 38em) {
   html {
@@ -469,8 +482,35 @@
 .section-dark {
   height: 73vh;
 }
+.nav-link:link, .nav-link:visited {
+  font-size: 1rem;
+}
+.nav-link.nav-btn:link, .nav-link.nav-btn:visited {
+  padding: 0.6rem 1.5rem;
+  border-radius: 24px;
+
+}
+
+}
 
 
+/*********************/
+/* FOR DEAD PHONES 😄  */
+/*********************/
+
+@media (max-width:20em) {
+  .header {
+    DISPLAY: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: center;
+    height: 15rem;
+}
+
+.navigation {
+ 
+  width: 64%;
+}
 
 
 }
