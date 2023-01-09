@@ -9,8 +9,8 @@
     max-width: 95%;
   }
   .header {
-    gap: 5rem;
-    max-width: 95%;
+    gap:6%;
+   
   }
   .slide {
     display: grid;
@@ -95,15 +95,26 @@
   .nav-list {
     display: none;
   }
-
-
-
-
   .btn-mobile-nav {
     display: block;
   }
 
 
+
+  .wrapper{
+    display: block;
+  }
+
+  .logo {
+    width: 15.6rem;
+}
+
+.navigation {
+  width: 50%;
+}
+
+
+  
   
 
   .mobile-nav-bar {
@@ -213,6 +224,10 @@
 @media (max-width: 53em) {
   html {
     font-size: 53%;
+  }
+  .header {
+    gap:0;
+    width: 99%;
   }
   .how-discription .pp {
     font-size: 0.8rem;
