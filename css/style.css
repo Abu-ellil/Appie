@@ -615,11 +615,11 @@ background-color: var(--d);
   padding-bottom:
     9.6rem;
 }
-.data-icons{
-  padding: 2px 9.6rem 9.6rem 4rem;
+.data-icons {
+  padding: 2px 5.6rem 9.6rem 9rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-  /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
 .data-icons img{
   width: 50%;
