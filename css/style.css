@@ -996,7 +996,7 @@ gap: 3.2rem;
 }
 .plan-sing-up .btn{
   color: var(--d);
-  font-size: 2.2;
+  font-size: 1.4rem;
   font-weight: 700;
   text-decoration: none;
   border: rgba(119, 119, 119, 0.628) 1px solid;
@@ -1005,7 +1005,7 @@ gap: 3.2rem;
 }
 .plan-sing-up .btn--full{
   color: #fff;
-  font-size: 2.2;
+  font-size: 1.4rem;
   font-weight: 700;
   text-decoration: none;
   background-color: var(--r);
