@@ -855,10 +855,10 @@ gap: 3.2rem;
   border-radius: 50px;
 }
 .pricing-plan {
-  border:1px solid var(--l);
-    border-radius: 9px;
-    padding: 4.8rem;
-    transition: all .8s;
+  border: 1px solid var(--l);
+  border-radius: 9px;
+  padding: 4.8rem;
+  transition: all .8s;
 }
 .pri:hover{
   transform: translateY(-1.2rem);
@@ -934,7 +934,8 @@ gap: 3.2rem;
   font-weight: 400;
 }
 .list-item {
-  font-size:2.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
   display: flex;
   align-items: center;
   gap: 1.6rem;
