@@ -61,7 +61,7 @@ body{
 .grid3colms {
   display: grid;
   column-gap: 6.4rem;
-  grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px,1fr)); 
 }
 
 
