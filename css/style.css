@@ -653,12 +653,22 @@ background-color: var(--d);
   gap: 4rem;
 }
 .vid{
+  position: relative;
 display: flex;
 flex-direction: column;
+align-items: center;
+top: 50% ;
 gap: 3.2rem;
 }
 .vid img{
   width: 100%;
+}
+.vid-icon{
+  font-size: 12rem;
+  color: #fff;
+  top: 20%;
+  position: absolute;
+  text-shadow: 0 0rem 2.8rem rgba(0, 0, 0, 0.875);
 }
 .slid-arrows{
   width: 70%;
