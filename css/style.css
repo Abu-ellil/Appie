@@ -542,9 +542,12 @@ background-color: var(--d);
   align-items: center;
 }
 .cardark{
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 108%;
+    gap: 1rem;
+    padding: 14px;
+
 }
 .crd{
   border: rgba(85, 85, 85, 0.346) 1px solid;
