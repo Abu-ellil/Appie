@@ -226,9 +226,9 @@
     font-size: 53%;
   }
   .header {
-    gap:0;
-    width: 99%;
-  }
+    gap: 2.8rem;
+    width: 95%;
+}
   .how-discription .pp {
     font-size: 0.8rem;
   }
