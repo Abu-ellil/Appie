@@ -1133,7 +1133,7 @@ gap: 3.2rem;
 }
 .spon-icons{
   display: grid;
-  max-width: 60%;
+  max-width: 70%;
   margin: 8.4rem auto 0px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-columns: repeat(auto-fill, minmax(11rem,1fr));
