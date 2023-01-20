@@ -25,7 +25,7 @@
     font-size: 4.6rem !important;
   }
   .spon-icons {
-    gap: 3.2rem;
+    gap: 1.2rem;
   }
   .spon-icons {
     grid-template-columns: repeat(5, 1fr);
@@ -271,8 +271,20 @@
     font-size: 1.4rem;
   }
   .spon-icons {
-    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-  }
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0; 
+    display: grid;
+      width: 100%;
+   
+}
+
+.spon-img {
+  box-shadow: 0 1.2rem 3.6rem rgb(0 0 0 / 15%);
+  border-radius: 3px;
+  padding: 1.2rem;
+  height: 80%;
+  width: 82%;
+}
   .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -426,8 +438,7 @@
     height: 56rem;
   }
   .spon-img:nth-child(10) {
-    left: 13rem;
-    position: relative;
+    left: 68px;
   }
   .footer-container {
     display: flex;
@@ -471,8 +482,9 @@
     font-size: 1.8rem;
   }
   .spon-img:nth-child(10) {
-    left: 0;
-  }
+    position: relative;
+    left: 100%;
+}
   .data-icons img {
     width: 20% !important;
   }
